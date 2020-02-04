@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" type="image/x-icon" href="imgs/icon.png" />
+
+  <!-- Bootstrap 3.7  -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <!-- Hover.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
+  <!-- Wow.js -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js">
+
+  <!-- Animate.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Concert+One|Galada&display=swap" rel="stylesheet">
+  <!-- Our css -->
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/mobile.css">
+  
+  <title>Bootstrap | Template 1</title>
+
+</head>
+
+<body>
+  <!-- Navbar  -->
+  <nav class="navbar navbar-default navbar-fixed-top">
+
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo"
+          aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <!-- <a href="#" class="navbar-brand"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span> Daniel James</a>
+    </div> -->
+        <a href="#" class="navbar-brand"><img src="./imgs/dflogo.png" alt=""></a>
+      </div>
+      <!-- For Toggling & Hamburger Menu  -->
+      <div class="collapse navbar-collapse" id="bs-nav-demo">
+
+        <ul class="nav navbar-nav navbar-right">
+
+          <!-- A drop down menu to be considered Landspcape, Videos ,Wild Iceland, .... etc -->
+        </ul>
+
+        <ul class="nav navbar-nav navbar-right">
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+
+          <li><a href="products.html">Products</a></li>
+          <li><a href="contact.html">Contact</a></li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Carousel  -->
+  <!-- hidden-xs beside carouse slid if needed in a screen size -->
+  <div id="carousel-example-generic" class="carousel slide " data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="./imgs/caro1.jpg" alt="...">
+
+      </div>
+      <div class="item">
+        <img src="./imgs/caro10.jpg" alt="...">
+
+      </div>
+      <div class="item">
+        <img src="./imgs/caro3.jpg" alt="...">
+
+      </div>
+
+      <div class="item">
+        <img src="./imgs/caro7.jpg" alt="...">
+
+      </div>
+
+    </div>
+
+    <!-- Controls -->
+    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+  <!-- End of Carousel -->
+
+
+<!-- <span class="visible-xs">SIZE XS</span>
+<span class="visible-sm">SIZE SM</span>
+<span class="visible-md">SIZE MD</span>
+<span class="visible-lg">SIZE LG</span> -->
+
+
+  <!-- About Section Using GRid System -->
+  <section id="about">
+    <div class="container">
+      <div class="row text-center">
+
+        <h1 class="">Welcome to Daisy Flower Shop</h1>
+        <p class="lead">Send It Now To Your Loved One, we&apos;re covering most areas of  Egypt with the best price ever in your city
+        </p>
+
+
+      </div>
+
+<div class="clearfix"></div>
+      <div class="row pt-1">
+        <!-- Left Side Big Image  -->
+        <div class="col-lg-6 wow slideInLeft">
+          <div class="image">
+            <p>When Words Not Enough, buy your beloved ones the best Flowers bouquet or Basket in town ... No need to
+              wait!</p>
+          </div>
+        </div>
+
+        <!-- Other half "Columns === 6" as well classified 6 & 6 as well  -->
+        <div class="col-lg-6 wow slideInRight">
+          <div class="col-lg-6">
+            <img src="./imgs/l31.jpg" alt="">
+          </div>
+          <div class="col-lg-6">
+            <p class="product-description">Order bridal bouquet online – Vintage</p class="product-description">
+            <span class="price"> 970.00 EGP</span class="price">
+          </div>
+          <div class="clearfix"></div>
+
+          <div class="col-lg-6">
+            <img src="./imgs/l33.jpg" alt="">
+          </div>
+          <div class="col-lg-6">
+            <p class="product-description">#1 Pink Tulip Flower Bouquet -Get it Now
+            </p>
+            <span class="price">640.00 EGP</span>
+          </div>
+          <div class="clearfix"></div>
+
+          <div class="col-lg-6">
+            <img src="./imgs/l32.jpg" alt="">
+          </div>
+          <div class="col-lg-6">
+            <p class="product-description">Sweet Floral – Order Gerbera Daisies with Roses
+            </p>
+            <span class="price"> 490.00 EGP</span>
+            <div class="clearfix"></div>
+
+          </div>
+
+
+
+  <div class="clearfix"></div>
+
+        </div>
+
+
+      
+        <div class="clearfix"></div>
+
+
+      </div>
+
+
+
+
+
+
+    </div>
+    <div class="clearfix"></div>
+
+  </section>
+  <div class="clearfix"></div>
+
+
+
+  <!-- Delivery Section  -->
+<section id="delivery">
+
+  <div class="container">
+
+    <p>Same Day Delivery In Egypt</p>
+
+  </div>
+
+</section>
+<div class="clearfix"></div>
+
+
+
+
+
+  <!-- Sales & Deals Section  -->
+<section id="sales">
+  <div class="container">
+    <div class="row text-center">
+
+      <h1>Sales & Deals</h1>
+      <p class="lead">Yes you can send it now Same Day Delivery In Cairo ... Shop Now best deals ever in Egypt.
+      </p>
+      </div>
+      <div class="row mb-5 ">
+      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+        <img src="./imgs/product1.jpeg" alt="">
+        <a href="" class="btn btn-info">Buy Now <span class="badge">95 LE</span>
+
+        </a>
+   
+        
+      </div>
+
+
+      <div class="col-xs-12 col-sm-4  col-md-4 col-lg-4 wow fadeInUp" data-wow-delay="0.7s">
+        <img src="./imgs/product2.jpg" alt="">
+        <a href="" class="btn btn-info">Buy Now <span class="badge">200LE</span>
+
+        </a>
+
+
+      </div>
+
+      <div class="col-xs-12 col-sm-4  col-md-4 col-lg-4 wow fadeInUp" data-wow-delay="0.9s">
+        <img src="./imgs/product3.jpg" alt="">
+        <a href="" class="btn btn-info">Buy Now <span class="badge">500LE</span>
+
+        </a>
+
+      </div>
+
+
+      
+    </div>
+
+
+  </div>
+</section>
+<div class="clearfix"></div>
+
+<!-- Why Us Section  -->
+<section id="why_us">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <h1>Why Daisy Flower?</h1>
+      </div>
+
+    </div>
+
+      <div class="row icons text-center">
+        <div class="col-lg-4">
+          <i class="fas fa-box-open fa-3x col-lg-6  col-md-12 icon col-sm-6"></i>
+          <div class="icons-text col-lg-6 col-md-12 col-sm-6">
+            <h2>Fast Delivery</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat, accusamus.</p>
+          </div>
+        
+        </div>
+
+        <div class="col-lg-4">
+          <!-- <i class="fas fa-dollar-sign fa-3x col-lg-12 col-xs-4"></i> -->
+          <i class="fas fa-dollar-sign fa-3x col-lg-6 icon col-md-12 col-sm-6"></i>
+          <div class="icons-text col-lg-6 col-md-12 col-sm-6">
+            <h2>Best Price Ever</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat, accusamus.</p>
+
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <i class="fas fa-shopping-basket fa-3x col-lg-6 icon col-md-12 col-sm-6"></i>
+          <div class="icons-text col-lg-6 col-md-12 col-sm-6">
+            <h2>Huge Collection</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat, accusamus.</p>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="clearfix"></div>
+
+      <br><br>
+  </div>
+</section>
+<div class="clearfix"></div>
+
+
+<!-- Footer  -->
+<footer id="main-footer" class="text-center">
+  <div class="container">
+    <img src="./imgs/dflogo.png" alt="">
+
+  </div>
+  <!-- <p>Made with love by </p> -->
+  <a href="" class="hvr-reveal fb">
+    <i class="fab fa-facebook fa-2x "></i>
+  </a>
+  <a href="" class="hvr-reveal ig">
+    <i class="fab fa-instagram fa-2x"></i>
+
+  </a>
+  <a href="" class="hvr-reveal">
+
+    <i class="fab fa-twitter fa-2x p3"></i>
+  </a>
+
+  <a href="" class="disabled">
+
+    <i class=" fa-2x m3"></i>
+  </a>
+<a href="" class="hvr-reveal credit-card">
+  <i aria-hidden="true" class="fab fa-cc-visa fa-2x"></i>
+
+</a>
+  <a href="" class="hvr-reveal master-card">
+    <i aria-hidden="true" class="fab fa-cc-mastercard fa-2x "></i>
+
+  </a>
+
+
+  <p>&copy; 2020 Saud ElTelawy, All Rights Reserved</p>
+
+</footer>
+
+
+
+<script src="./js/wow.min.js"></script>
+<script>
+new WOW().init();
+</script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
